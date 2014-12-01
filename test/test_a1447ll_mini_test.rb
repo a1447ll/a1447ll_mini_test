@@ -44,9 +44,7 @@ class TestA1447llMiniTest < MiniTest::Unit::TestCase
   end
   
   def test_hello
-    assert_equal "Hello", @my_class.hello("hello")
-    assert_equal "Hello", @my_class.hello("HELLO")
-    assert_equal "Hello", @my_class.hello("heLLo")
+    assert_equal "Hello, Bao Linh!", @my_class.hello("bAo LiNH")
   end
    
 end

@@ -29,10 +29,8 @@ module A1447llMiniTest
     end
 
     def hello (string)
-      str = string.downcase
-      if str == "hello"
-        "Hello"
-      end
+      name = string.split.map{|word| word.capitalize}.join(' ')
+      "Hello, " + name + "!"
     end     
   end
 end
