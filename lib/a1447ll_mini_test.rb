@@ -31,6 +31,6 @@ module A1447llMiniTest
     def hello (string)
       name = string.split.map{|word| word.capitalize}.join(' ')
       "Hello, " + name + "!"
-    end     
+    end   
   end
 end
